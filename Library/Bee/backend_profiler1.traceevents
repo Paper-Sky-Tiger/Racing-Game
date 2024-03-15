@@ -1,0 +1,483 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1710535647144752, "dur":1143, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710535647145897, "dur":43, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1710535647145954, "dur":11, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1710535647145966, "dur":279, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1710535647146273, "dur":448, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710535647146721, "dur":0, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710535647210632, "dur":147, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710535647210779, "dur":86, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710535647210865, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710535647210866, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710535647210884, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710535647210888, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710535647210901, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710535647210903, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710535647210915, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710535647210916, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710535647210923, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710535647210924, "dur":24, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710535647210948, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710535647210950, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710535647210954, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710535647210956, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710535647210961, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710535647210963, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710535647210969, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710535647210970, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710535647210974, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710535647210975, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710535647210980, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710535647210981, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710535647210986, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710535647211003, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710535647211013, "dur":996, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1710535647147137, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1710535647147137, "dur":2675, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1710535647149817, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1710535647150026, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1710535647152757, "dur":1862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1710535647154664, "dur":21755, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710535647176422, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1710535647176484, "dur":4579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710535647181105, "dur":870, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710535647181979, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1710535647181986, "dur":3163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710535647185188, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710535647185425, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1710535647185474, "dur":2471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710535647188002, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1710535647188044, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1710535647188050, "dur":3662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1710535647191766, "dur":18858, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710535647146803, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710535647146804, "dur":3050, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710535647149855, "dur":1302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1710535647151160, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710535647152303, "dur":1628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1710535647153995, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1710535647154072, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710535647154077, "dur":1605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1710535647155721, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710535647155844, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710535647156121, "dur":3654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710535647159822, "dur":352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710535647160177, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710535647160183, "dur":3492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710535647163707, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710535647163968, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710535647163974, "dur":2295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710535647166360, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710535647166496, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710535647166503, "dur":3017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710535647169606, "dur":318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710535647169927, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710535647169934, "dur":2966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710535647172940, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710535647173058, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710535647173064, "dur":3197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710535647176297, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710535647176416, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710535647176422, "dur":2541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710535647179013, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710535647179207, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710535647179215, "dur":1822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710535647181077, "dur":345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710535647181425, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710535647181433, "dur":1801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710535647183258, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710535647183364, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710535647183387, "dur":1771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710535647185197, "dur":4832, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710535647190032, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710535647190036, "dur":4401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710535647194463, "dur":16168, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710535647146890, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710535647146890, "dur":2919, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710535647149817, "dur":929, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1710535647150749, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710535647152400, "dur":765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1710535647153196, "dur":763, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1710535647153962, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710535647153968, "dur":1419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1710535647155437, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710535647155596, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710535647156111, "dur":3852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710535647160030, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710535647160171, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710535647160177, "dur":2963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710535647163202, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710535647163347, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710535647163354, "dur":2149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710535647165533, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710535647165720, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710535647165794, "dur":2405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710535647168235, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710535647168404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710535647168410, "dur":2376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710535647170873, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710535647171099, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710535647171106, "dur":2742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710535647173901, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710535647174025, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710535647174031, "dur":2326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710535647176395, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710535647176594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710535647176601, "dur":2367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710535647179015, "dur":461, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710535647179480, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710535647179486, "dur":2494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710535647182026, "dur":448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710535647182477, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710535647182497, "dur":2785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710535647185319, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710535647185436, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710535647185442, "dur":2217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710535647187716, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1710535647187849, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710535647187853, "dur":4296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1710535647192189, "dur":18434, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710535647146595, "dur":131, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710535647146738, "dur":3070, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710535647149816, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1710535647149820, "dur":160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710535647149984, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1710535647149988, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710535647150597, "dur":2322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1710535647152924, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1710535647153027, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710535647153633, "dur":1250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1710535647154920, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1710535647154997, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710535647155249, "dur":7082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1710535647162386, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710535647162510, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710535647162515, "dur":1583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710535647164142, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710535647164276, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710535647164281, "dur":2355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710535647166671, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710535647166863, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710535647166868, "dur":2749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710535647169723, "dur":330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710535647170057, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710535647170063, "dur":2632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710535647172725, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710535647172844, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710535647172851, "dur":3140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710535647176030, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710535647176171, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710535647176177, "dur":2639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710535647178846, "dur":394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710535647179243, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710535647179249, "dur":2727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710535647182016, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710535647182221, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710535647182227, "dur":2887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710535647185154, "dur":348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710535647185532, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710535647185540, "dur":1952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710535647187561, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1710535647187615, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710535647187622, "dur":6811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1710535647194465, "dur":16186, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710535647146696, "dur":44, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710535647146740, "dur":3076, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710535647149816, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1710535647150021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710535647153029, "dur":1207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1710535647154272, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1710535647154361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710535647154367, "dur":1068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1710535647155482, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710535647155608, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710535647156130, "dur":3805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710535647159981, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710535647160106, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710535647160111, "dur":3271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710535647163418, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710535647163571, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710535647163579, "dur":2062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710535647165675, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710535647165821, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710535647165827, "dur":3608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710535647169557, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710535647169703, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710535647169713, "dur":2928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710535647172685, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710535647172824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710535647172831, "dur":2854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710535647175747, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710535647175885, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710535647175892, "dur":2957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710535647178895, "dur":638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710535647179535, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710535647179540, "dur":2774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710535647182352, "dur":432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710535647182787, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710535647182793, "dur":2465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710535647185298, "dur":301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710535647185601, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710535647185608, "dur":2044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710535647187693, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1710535647187735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710535647187768, "dur":4032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1710535647191838, "dur":18791, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710535647146796, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710535647146796, "dur":3015, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710535647149817, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1710535647150027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710535647153272, "dur":1356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1710535647154674, "dur":46277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710535647200955, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710535647200963, "dur":9602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710535647210597, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":6, "ts":1710535647210599, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710535647147116, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710535647147116, "dur":2696, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710535647149817, "dur":1297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1710535647151116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710535647152744, "dur":1932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1710535647154718, "dur":6216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1710535647160966, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710535647160990, "dur":1928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1710535647162953, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710535647163065, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710535647163071, "dur":1879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710535647164983, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710535647165222, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710535647165230, "dur":2935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710535647168202, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710535647168299, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710535647168304, "dur":2400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710535647170742, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710535647170873, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710535647170880, "dur":3598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710535647174515, "dur":1131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710535647175659, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710535647175683, "dur":2669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710535647178401, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710535647178557, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710535647178566, "dur":2128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710535647180727, "dur":324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710535647181055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710535647181063, "dur":1949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710535647183054, "dur":1990, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710535647185047, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710535647185057, "dur":4639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710535647189727, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1710535647189760, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710535647189766, "dur":2430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1710535647192239, "dur":18409, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710535647146883, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710535647146883, "dur":2931, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710535647149818, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1710535647150018, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710535647152717, "dur":1890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1710535647154657, "dur":3430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710535647158094, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710535647158650, "dur":1389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710535647160100, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710535647160222, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710535647160227, "dur":3184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710535647163461, "dur":1065, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710535647164529, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710535647164535, "dur":2931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710535647167504, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710535647167637, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710535647167645, "dur":3081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710535647170765, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710535647170970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710535647170976, "dur":3531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710535647174542, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710535647174844, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710535647174857, "dur":2436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710535647177336, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710535647177519, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710535647177526, "dur":2295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710535647179864, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710535647179980, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710535647179986, "dur":2832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710535647182870, "dur":2581, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710535647185455, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710535647185463, "dur":3692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710535647189191, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1710535647189228, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710535647189235, "dur":2519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1710535647191795, "dur":18832, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710535647147009, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710535647147009, "dur":2804, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710535647149818, "dur":1295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1710535647151116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710535647152738, "dur":1977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1710535647154756, "dur":497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2).exe" }}
+,{ "pid":12345, "tid":9, "ts":1710535647155256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710535647155261, "dur":1557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2).exe" }}
+,{ "pid":12345, "tid":9, "ts":1710535647156845, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710535647156941, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710535647158061, "dur":3099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710535647161197, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710535647161341, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710535647161348, "dur":2443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710535647163827, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710535647163940, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710535647163945, "dur":2243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710535647166226, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710535647166353, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710535647166361, "dur":3043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710535647169470, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710535647169708, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710535647169715, "dur":2918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710535647172677, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710535647172843, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710535647172850, "dur":3175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710535647176062, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710535647176205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710535647176210, "dur":2776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710535647179037, "dur":427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710535647179467, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710535647179472, "dur":2513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710535647182042, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710535647182188, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710535647182195, "dur":2775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710535647185021, "dur":1537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710535647186561, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710535647186569, "dur":2168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710535647188781, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/resources.assets" }}
+,{ "pid":12345, "tid":9, "ts":1710535647188826, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710535647188832, "dur":2936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/resources.assets" }}
+,{ "pid":12345, "tid":9, "ts":1710535647191809, "dur":18826, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710535647147166, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710535647147166, "dur":2682, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710535647149848, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1710535647150004, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710535647152215, "dur":1376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1710535647153637, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1710535647153712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710535647153770, "dur":1504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1710535647155312, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1710535647155491, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710535647156070, "dur":3669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1710535647159783, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1710535647160036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710535647160046, "dur":3063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1710535647163140, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1710535647163332, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710535647163338, "dur":1946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1710535647165319, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1710535647165471, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710535647165477, "dur":2299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1710535647167824, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1710535647167917, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710535647167922, "dur":2788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1710535647170753, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1710535647170971, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710535647170978, "dur":2837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1710535647173858, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":10, "ts":1710535647174112, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710535647174118, "dur":2230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":10, "ts":1710535647176384, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1710535647176653, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710535647176658, "dur":2529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1710535647179220, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":10, "ts":1710535647179334, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710535647179338, "dur":2851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":10, "ts":1710535647182284, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1710535647182427, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710535647182432, "dur":3979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1710535647186464, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1710535647186633, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710535647186775, "dur":3098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1710535647189910, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1710535647189947, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710535647189952, "dur":2435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1710535647192420, "dur":18206, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710535647147200, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710535647147201, "dur":2618, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710535647149821, "dur":1113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1710535647150938, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710535647152309, "dur":1562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1710535647153906, "dur":693, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1710535647154602, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710535647154613, "dur":903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1710535647155551, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710535647155676, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710535647156086, "dur":3635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710535647159775, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710535647160059, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710535647160066, "dur":3219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710535647163324, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710535647163438, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710535647163443, "dur":2019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710535647165500, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710535647165650, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710535647165656, "dur":2125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710535647167834, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710535647167973, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710535647167980, "dur":2991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710535647171012, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710535647171128, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710535647171134, "dur":3287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710535647174465, "dur":372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710535647174851, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710535647174866, "dur":2534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710535647177436, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710535647177540, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710535647177545, "dur":1888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710535647179466, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710535647179659, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710535647179665, "dur":2422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710535647182139, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710535647182334, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710535647182339, "dur":2696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710535647185073, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710535647185308, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710535647185319, "dur":2365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710535647187743, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":11, "ts":1710535647187875, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710535647187880, "dur":3515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":11, "ts":1710535647191439, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1710535647191569, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710535647191581, "dur":1135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1710535647192746, "dur":17906, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710535647147224, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710535647147225, "dur":2630, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710535647149855, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1710535647150088, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710535647152615, "dur":1842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1710535647154495, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":12, "ts":1710535647154606, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710535647154613, "dur":1241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":12, "ts":1710535647155891, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710535647156054, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710535647158002, "dur":3153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710535647161193, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710535647161349, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710535647161356, "dur":2876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710535647164271, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710535647164501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710535647164507, "dur":2166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710535647166703, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710535647166881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710535647166887, "dur":2693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710535647169621, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710535647169761, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710535647169766, "dur":3117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710535647172921, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710535647173052, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710535647173057, "dur":3158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710535647176246, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710535647176478, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710535647176484, "dur":3118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710535647179641, "dur":2819, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710535647182462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710535647182466, "dur":4768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710535647187275, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":12, "ts":1710535647187317, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710535647187325, "dur":2868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":12, "ts":1710535647190236, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1710535647190274, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710535647190278, "dur":2142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nathan Almonte/Downloads/bleh/Racer/My project (2)_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1710535647192504, "dur":18141, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710535647212989, "dur":1368, "ph":"X", "name": "ProfilerWriteOutput" }
+,
